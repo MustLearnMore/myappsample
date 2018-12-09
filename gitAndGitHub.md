@@ -91,6 +91,10 @@
                                             remote repos can be done with the prior
                                             command of *git remote*.
 
+* git push -u [name] master =   Tells Git to push the master branch to the provided
+                                repo. E.g. *git push -u origin master* will push the
+                                master branch to the remote repo called 'origin'.                                       
+
 #Adding credentials
 
 * git config --global user.name 'mustLearnMore'
