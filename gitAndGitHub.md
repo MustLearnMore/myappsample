@@ -79,7 +79,17 @@
                             *git checkout login*.
 
 * git merge [name]  =   Whilst in the master branch, tells Git to merge the branch
-                        provided, e.g. *git merge login*.                            
+                        provided, e.g. *git merge login*.
+
+* git remote        =   Tells Git to list all of our remote repos.
+
+* git remote add [name] [target URL]    =   Tells Git to add a remote repo with the 
+                                            provided name and found at the provided
+                                            URL. E.g.
+            *git remote add origin https://github.com/MustLearnMore/myappsample.git*
+                                            Confirmation of this being added to our
+                                            remote repos can be done with the prior
+                                            command of *git remote*.
 
 #Adding credentials
 
