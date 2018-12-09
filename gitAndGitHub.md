@@ -25,7 +25,13 @@
 * git rm -cached index.html     =   Tells Git to remove the specified file (in this                                         case index.html) from the staging area, i.e. the 
                                     opposite of *git add*
 
-* touch .gitignore  =   
+* touch .gitignore  =   Create this file using Git, and simply open 
+                        this file in your text editor and add the names of the files and/or directories that
+                        you require Git to ignore. Just add one name
+                        per line, e.g.
+                        log.txt
+                        index.ejs
+                        /dir2
 
 * git commit -m "*" =   Tells Git to make a checkpoint in time, recording changes 
                         made up to that point. The *-m* stands for 'message' and
@@ -64,6 +70,13 @@
                         repository.
 
 * git clone         =   Will copy a remote repo into the current folder.
+
+* git branch [name] =   Tells Git to create a new branch with the provided name, e.g.
+                        *git branch login*. But this only creates the branch, it 
+                        doesn't move the head over to this branch. This is done with...
+
+* git checkout [name]   =   Tells Git to take the head into the named branch, e.g.
+                            *git checkout login*.
 
 #Adding credentials
 
