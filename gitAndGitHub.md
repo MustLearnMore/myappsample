@@ -25,6 +25,8 @@
 * git rm -cached index.html     =   Tells Git to remove the specified file (in this                                         case index.html) from the staging area, i.e. the 
                                     opposite of *git add*
 
+* touch .gitignore  =   
+
 * git commit -m "*" =   Tells Git to make a checkpoint in time, recording changes 
                         made up to that point. The *-m* stands for 'message' and
                         allows the user to add a comment (within the quotes) stating 
