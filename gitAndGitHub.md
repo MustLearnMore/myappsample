@@ -78,6 +78,9 @@
 * git checkout [name]   =   Tells Git to take the head into the named branch, e.g.
                             *git checkout login*.
 
+* git merge [name]  =   Whilst in the master branch, tells Git to merge the branch
+                        provided, e.g. *git merge login*.                            
+
 #Adding credentials
 
 * git config --global user.name 'mustLearnMore'
